@@ -1,0 +1,17 @@
+# node
+node_modules
+package-lock.json
+
+# logs
+log
+*.log
+
+# optional npm cache directory
+.npm
+
+# vscode
+.vscode-test
+.vs
+
+# serect
+# .env

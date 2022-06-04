@@ -1,0 +1,8 @@
+## .env File
+```
+PORT=8000
+
+MONGO_URL=
+MONGO_USER=
+MONGO_PASS=
+```
