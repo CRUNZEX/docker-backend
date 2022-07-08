@@ -8,7 +8,10 @@ module.exports = async ({ email, username }) => {
         }
 
         const response = await dataModel.create(payload)
-        return response
+        return {
+            status: true,
+            payload: response
+        }
     } catch (err) {
         throw new Error('error: cannot post data')
     }
